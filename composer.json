@@ -1,0 +1,31 @@
+{
+    "name": "husseycoding/cfs_assessment",
+    "description": "This extends the admin order grid adding a new column for customer lifetime revenue.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Jon Hussey",
+            "email": "hussey@husseycoding.co.uk"
+        }
+    ],
+    "require": {
+        "php": "~8.2.0||~8.3.0||~8.4.0",
+        "magento/framework": ">=103.0.6",
+        "magento/module-sales": ">=103.0.6",
+        "magento/module-customer": ">=103.0.6",
+        "magento/module-store": ">=101.1.6",
+        "magento/module-backend": ">=102.0.6"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "CFS\\Assessment\\": ""
+        }
+    }
+}
